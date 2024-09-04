@@ -26,7 +26,7 @@ http = "1.1.0"
 hyper = "1.4.1"
 nonzero_ext = "0.3.0"
 reqwest = "0.12.7"
-tokio-tungstenite = { path = "./tokio-tungstenite", features = ["rustls-tls-native-roots"] }
+tokio-tungstenite = { version = "0.23.1", features = ["rustls-tls-native-roots"] }
 
 [dev-dependencies]
 criterion = { workspace = true }
